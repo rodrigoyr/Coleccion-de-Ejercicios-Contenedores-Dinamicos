@@ -1,8 +1,8 @@
 #include <vector>
 #include <string>
 #include <map>
-#include "json11.hpp"
-#include "jsonlib.hpp"
+#include "json11"
+#include "json-lib"
 
 enum variant_type { Symbol, Number, List, Proc, Lambda, Cadena };
 

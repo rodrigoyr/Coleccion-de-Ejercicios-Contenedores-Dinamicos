@@ -15,4 +15,4 @@ add_library(json11 STATIC ${JSON11_SOURCES})
 
 add_executable(Ejercicio_6 main.cpp)
 
-target_link_libraries(Ejercicio_6 json11)
+target_link_libraries(Ejercicio_6 json11 json-lib)

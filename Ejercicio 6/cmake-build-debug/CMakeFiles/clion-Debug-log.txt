@@ -1,13 +1,4 @@
 "C:\Programas\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Programas/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Ingeniería Informática UAX\2023-24\1er cuatrimestre\Programación\Ejercicios\Coleccion-de-Ejercicios-Contenedores-Dinamicos\Ejercicio 6" -B "C:\Ingeniería Informática UAX\2023-24\1er cuatrimestre\Programación\Ejercicios\Coleccion-de-Ejercicios-Contenedores-Dinamicos\Ejercicio 6\cmake-build-debug"
--- Configuring done (0.7s)
-CMake Error at CMakeLists.txt:14 (add_library):
-  Cannot find source file:
-
-    C:/Programas/Librerias C++/json-lib/tus_archivos_json_lib.cpp
-
-
-CMake Error at CMakeLists.txt:14 (add_library):
-  No SOURCES given to target: json-lib
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Ingeniería Informática UAX/2023-24/1er cuatrimestre/Programación/Ejercicios/Coleccion-de-Ejercicios-Contenedores-Dinamicos/Ejercicio 6/cmake-build-debug

@@ -7,14 +7,14 @@ int main() {
 
     std::sort(numeros.begin(), numeros.end());
 
-    std::cout << "Números ordenados:" << std::endl;
+    std::cout << "Numeros ordenados:" << std::endl;
     for (const int& num : numeros) {
         std::cout << num << std::endl;
     }
 
     int maxNum = *std::max_element(numeros.begin(), numeros.end());
 
-    std::cout << "Número máximo: " << maxNum << std::endl;
+    std::cout << "Numero maximo: " << maxNum << std::endl;
 
     return 0;
 }

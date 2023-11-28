@@ -52,6 +52,7 @@ build cmake_object_order_depends_target_Ejercicio_6: phony || CMakeFiles/Ejercic
 build CMakeFiles/Ejercicio_6.dir/main.cpp.obj: CXX_COMPILER__Ejercicio_6_unscanned_Debug C$:/Ingeniería$ Informática$ UAX/2023-24/1er$ cuatrimestre/Programación/Ejercicios/Coleccion-de-Ejercicios-Contenedores-Dinamicos/Ejercicio$ 6/main.cpp || cmake_object_order_depends_target_Ejercicio_6
   DEP_FILE = CMakeFiles\Ejercicio_6.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Programas/Librerias C++/boost_1_83_0"
   OBJECT_DIR = CMakeFiles\Ejercicio_6.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicio_6.dir
 

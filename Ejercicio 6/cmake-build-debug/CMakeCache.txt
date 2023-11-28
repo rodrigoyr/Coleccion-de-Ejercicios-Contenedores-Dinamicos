@@ -18,7 +18,7 @@
 Boost_DIR:PATH=Boost_DIR-NOTFOUND
 
 //Path to a file.
-Boost_INCLUDE_DIR:PATH=Boost_INCLUDE_DIR-NOTFOUND
+Boost_INCLUDE_DIR:PATH=C:/Programas/Librerias C++/boost_1_83_0
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Programas/CLion 2023.2.2/bin/mingw/bin/addr2line.exe
@@ -415,12 +415,14 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_STRIP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/Programas/Librerias C++/boost_1_83_0][c ][v1.83.0(1.75.0)]
 //Last used BOOST_ROOT value.
-_BOOST_ROOT_LAST:INTERNAL=path/to/your/boost
+_BOOST_ROOT_LAST:INTERNAL=C:/Programas/Librerias C++/boost_1_83_0
 //Components requested for this build tree.
 _Boost_COMPONENTS_SEARCHED:INTERNAL=
 //Last used Boost_INCLUDE_DIR value.
-_Boost_INCLUDE_DIR_LAST:INTERNAL=Boost_INCLUDE_DIR-NOTFOUND
+_Boost_INCLUDE_DIR_LAST:INTERNAL=C:/Programas/Librerias C++/boost_1_83_0
 //Last used Boost_NAMESPACE value.
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.

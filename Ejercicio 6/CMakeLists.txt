@@ -3,10 +3,12 @@ project(Ejercicio_6)
 
 set(CMAKE_CXX_STANDARD 17)
 
+include_directories(include)
+include_directories("C:/Programas/Librerias C++/json11-master")
+
+set(JSON11_SOURCES "C:/Programas/Librerias C++/json11-master/json11.cpp")
+
+add_library(json11 STATIC ${JSON11_SOURCES})
 add_executable(Ejercicio_6 main.cpp)
-
-include_directories(include json11-master)
-
-add_library(json11 STATIC "C:\Programas\Librerias C++\json11-master")
 
 target_link_libraries(Ejercicio_6 json11)

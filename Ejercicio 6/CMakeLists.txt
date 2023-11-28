@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.26)
 project(Ejercicio_6)
 
 set(CMAKE_CXX_STANDARD 17)
-set(BOOST_ROOT "path/to/your/boost")
+set(BOOST_ROOT "C:\Programas\Librerias C++\boost_1_83_0")
 
 find_package(Boost 1.75.0)
 

@@ -1,4 +1,17 @@
 #include <vector>
+#include <iostream>
+#include <sstream>
+#include <string>
+#include "variant.hpp"
+
+int main() {
+    // Tu implementación aquí
+}
+
+// Path: variant.hpp
+#include <vector>
+#include <iostream>
+#include <sstream>
 #include <string>
 #include <map>
 #include "json11.hpp" // Asegúrate de tener esta biblioteca en tu sistema

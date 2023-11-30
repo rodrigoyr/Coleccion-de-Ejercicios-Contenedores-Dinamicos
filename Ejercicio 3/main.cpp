@@ -7,14 +7,18 @@ int main() {
 
     std::sort(numeros.begin(), numeros.end());
 
-    std::cout << "Numeros ordenados:" << std::endl;
-    for (const int& num : numeros) {
+    std::cout << "Elementos ordenados del vector:" << std::endl;
+    for(int num : numeros) {
         std::cout << num << std::endl;
     }
 
-    int maxNum = *std::max_element(numeros.begin(), numeros.end());
-
-    std::cout << "Numero maximo: " << maxNum << std::endl;
+    auto maxElement = std::max_element(numeros.begin(), numeros.end());
+    if (maxElement != numeros.end()) {
+        int maxNum = *maxElement;
+        std::cout << "Numero maximo: " << maxNum << std::endl;
+    } else {
+        std::cout << "El vector está vacio." << std::endl;
+    }
 
     return 0;
 }

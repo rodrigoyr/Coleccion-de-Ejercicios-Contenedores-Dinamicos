@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 project(BoostExample)
 
 set(CMAKE_CXX_STANDARD 14)
-set(BOOST_ROOT ""C:Programas;Librerias C++;boost_1_83_0"")
+set(BOOST_ROOT "C:Programas;Librerias C++;boost_1_83_0")
 
 find_package(Boost 1.75.0)
 

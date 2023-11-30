@@ -134,7 +134,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Ejercicio_6
 CMAKE_LINKER:FILEPATH=C:/Programas/CLion 2023.2.2/bin/mingw/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~4/CLION2~1.2/bin/ninja/win/x64/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/Programas/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -427,7 +427,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Boost
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/Programas/Librerias C++/boost_1_83_0][c ][v1.83.0(1.75.0)]
 //Last used BOOST_ROOT value.
-_BOOST_ROOT_LAST:INTERNAL=;C:Programas;Librerias;C++;boost_1_83_0""
+_BOOST_ROOT_LAST:INTERNAL=C:Programas;Librerias C++;boost_1_83_0
 //Components requested for this build tree.
 _Boost_COMPONENTS_SEARCHED:INTERNAL=
 //Last used Boost_INCLUDE_DIR value.

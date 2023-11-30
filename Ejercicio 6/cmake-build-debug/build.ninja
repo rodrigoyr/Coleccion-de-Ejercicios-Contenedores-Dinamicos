@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Ejercicio_6
+# Project: BoostExample
 # Configurations: Debug
 # =============================================================================
 
@@ -40,40 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Ingeniería$ Informática$ UAX/2023-24/1er$ cuatrimestre/Programación/Ejercicios/Coleccion-de-Ejercicios-Contenedores-Dinamicos/Ejercicio$ 6/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target Ejercicio_6
-
-
-#############################################
-# Order-only phony target for Ejercicio_6
-
-build cmake_object_order_depends_target_Ejercicio_6: phony || CMakeFiles/Ejercicio_6.dir
-
-build CMakeFiles/Ejercicio_6.dir/main.cpp.obj: CXX_COMPILER__Ejercicio_6_unscanned_Debug C$:/Ingeniería$ Informática$ UAX/2023-24/1er$ cuatrimestre/Programación/Ejercicios/Coleccion-de-Ejercicios-Contenedores-Dinamicos/Ejercicio$ 6/main.cpp || cmake_object_order_depends_target_Ejercicio_6
-  DEP_FILE = CMakeFiles\Ejercicio_6.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Programas/Librerias C++/boost_1_83_0"
-  OBJECT_DIR = CMakeFiles\Ejercicio_6.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ejercicio_6.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Ejercicio_6
-
-
-#############################################
-# Link the executable Ejercicio_6.exe
-
-build Ejercicio_6.exe: CXX_EXECUTABLE_LINKER__Ejercicio_6_Debug CMakeFiles/Ejercicio_6.dir/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Ejercicio_6.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Ejercicio_6.exe
-  TARGET_IMPLIB = libEjercicio_6.dll.a
-  TARGET_PDB = Ejercicio_6.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -100,8 +66,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Ejercicio_6: phony Ejercicio_6.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -110,7 +74,7 @@ build Ejercicio_6: phony Ejercicio_6.exe
 #############################################
 # Folder: C:/Ingeniería Informática UAX/2023-24/1er cuatrimestre/Programación/Ejercicios/Coleccion-de-Ejercicios-Contenedores-Dinamicos/Ejercicio 6/cmake-build-debug
 
-build all: phony Ejercicio_6.exe
+build all: phony
 
 # =============================================================================
 # Built-in targets

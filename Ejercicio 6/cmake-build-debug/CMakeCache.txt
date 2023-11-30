@@ -14,11 +14,20 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+BoostExample_BINARY_DIR:STATIC=C:/Ingeniería Informática UAX/2023-24/1er cuatrimestre/Programación/Ejercicios/Coleccion-de-Ejercicios-Contenedores-Dinamicos/Ejercicio 6/cmake-build-debug
+
+//Value Computed by CMake
+BoostExample_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+BoostExample_SOURCE_DIR:STATIC=C:/Ingeniería Informática UAX/2023-24/1er cuatrimestre/Programación/Ejercicios/Coleccion-de-Ejercicios-Contenedores-Dinamicos/Ejercicio 6
+
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=Boost_DIR-NOTFOUND
 
 //Path to a file.
-Boost_INCLUDE_DIR:PATH=C:/Programas/Librerias C++/boost_1_83_0
+Boost_INCLUDE_DIR:PATH=Boost_INCLUDE_DIR-NOTFOUND
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Programas/CLion 2023.2.2/bin/mingw/bin/addr2line.exe
@@ -125,7 +134,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Ejercicio_6
 CMAKE_LINKER:FILEPATH=C:/Programas/CLion 2023.2.2/bin/mingw/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Programas/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~4/CLION2~1.2/bin/ninja/win/x64/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -163,7 +172,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Ejercicio_6
+CMAKE_PROJECT_NAME:STATIC=BoostExample
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Programas/CLion 2023.2.2/bin/mingw/bin/ranlib.exe
@@ -418,11 +427,11 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Boost
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/Programas/Librerias C++/boost_1_83_0][c ][v1.83.0(1.75.0)]
 //Last used BOOST_ROOT value.
-_BOOST_ROOT_LAST:INTERNAL=C:/Programas/Librerias C++/boost_1_83_0
+_BOOST_ROOT_LAST:INTERNAL=;C:Programas;Librerias;C++;boost_1_83_0""
 //Components requested for this build tree.
 _Boost_COMPONENTS_SEARCHED:INTERNAL=
 //Last used Boost_INCLUDE_DIR value.
-_Boost_INCLUDE_DIR_LAST:INTERNAL=C:/Programas/Librerias C++/boost_1_83_0
+_Boost_INCLUDE_DIR_LAST:INTERNAL=Boost_INCLUDE_DIR-NOTFOUND
 //Last used Boost_NAMESPACE value.
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.
